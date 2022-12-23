@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+header h2 {
+   text-align: center;
+   padding: 24px 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    
+    margin: 12px;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card-container {
+    border: 1px solid;
+    padding: 12px;
+    transition: transform 300ms ease;
+}
+
+.card-container img {
+    height: 200px;
+    object-fit: cover;  
+}
+
+.card-container:hover {
+    transform: scale(1.04);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-container h3 {
+    text-align: center;
+    padding: 8px 0;
+}
+.back-link {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 8px 0;
+}
+
+.back-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
